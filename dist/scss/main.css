@@ -477,7 +477,6 @@ p {
 
 .header.header--home.hide {
   transform: none !important;
-  position: sticky;
 }
 
 @media only screen and (max-width:576px) {
