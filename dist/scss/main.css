@@ -4246,9 +4246,7 @@ p {
 }
 
 @media only screen and (max-width:576px) {
-  .hero {
-    height: 100dvh
-  }
+
 
   .hero .btn {
     max-width: 100%
