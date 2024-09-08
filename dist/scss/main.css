@@ -475,7 +475,7 @@ p {
   transform: translateY(-110%) !important
 }
 
-.header--home.hide {
+.header.header--home.hide {
   transform: none !important;
   position: sticky;
 }
