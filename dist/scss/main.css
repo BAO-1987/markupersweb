@@ -491,10 +491,6 @@ p {
   .header {
     padding: 20px 0
   }
-
-  .header--home.hide {
-    transform: none !important
-  }
 }
 
 .nav {
