@@ -475,6 +475,11 @@ p {
   transform: translateY(-110%) !important
 }
 
+.header--home.hide {
+  transform: none !important;
+  position: sticky;
+}
+
 @media only screen and (max-width:576px) {
   .header--simple .nav {
     flex-direction: column;
