@@ -4170,8 +4170,7 @@ p {
 }
 
 .hero {
-  min-height: var(--vh);
-   height: -webkit-fill-available;
+  height: var(--vh);
   flex-direction: column;
   justify-content: center;
   margin-top: -7rem;
@@ -4182,7 +4181,6 @@ p {
 
 .hero__inner {
   height: calc(var(--vh)*1%);
-  height: -webkit-fill-available;
   min-height: 450px;
   z-index: 1;
   justify-content: space-between;
@@ -4215,6 +4213,13 @@ p {
   flex-direction: column;
   align-items: baseline;
   margin-right: 4.16rem
+}
+
+
+@media only screen and (max-width:992px) {
+  .hero {
+    height: 100lvh;
+  }
 }
 
 @media only screen and (max-width:992px) {
