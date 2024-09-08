@@ -472,11 +472,7 @@ p {
 }
 
 .header.hide {
-  transform: translateY(-110%) !important
-}
-
-.header.header--home.hide {
-  transform: none !important;
+      top: calc(var(--header-height)* -1);
 }
 
 @media only screen and (max-width:576px) {
@@ -4174,7 +4170,7 @@ p {
 }
 
 .hero {
-  height: var(--vh);
+  height: calc(var(--vh) - (var(--header-height)));
   flex-direction: column;
   justify-content: center;
   margin-top: -7rem;
@@ -4220,11 +4216,11 @@ p {
 }
 
 
-@media only screen and (max-width:992px) {
+/* @media only screen and (max-width:992px) {
   .hero {
     height: 100lvh;
   }
-}
+} */
 
 @media only screen and (max-width:992px) {
   .hero h1 {
